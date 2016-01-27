@@ -1,7 +1,12 @@
+# ---
+# Bootstrap
+# From: https://github.com/jsanta/bootstrap-snippets
+# ---
 - trigger: bthtml5
   description: Bootstrap HTML5 template
   scope: html
-  mTime: 1453308965321
+  tag: Bootstrap
+  tagHide: true
   text: |
         <!DOCTYPE html>
         <html lang="${1}">
@@ -42,35 +47,40 @@
 - trigger: btcontainer
   description: Bootstrap container
   scope: html
-  mTime: 1453321960594
+  tag: Bootstrap
+  tagHide: true
   text: |
         <div class="${1:container-fluid|container}">${2}</div>
 
 - trigger: btrow
   description: Bootstrap row
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <div class="row">${1}</div>
 
 - trigger: btcol
   description: Bootstrap column
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <div class="${1:col-md-3}">${2}</div>
 
 - trigger: btlead
   description: Bootstrap lead paragraph
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <p class="lead">${1}</p>
 
 - trigger: btquote
   description: Bootstrap blockquote
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <blockquote>
           <p>${1}</p>
@@ -80,7 +90,8 @@
 - trigger: btquoterev
   description: Bootstrap blockquote right aligned
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <blockquote class="blockquote-reverse">
           <p>${1}</p>
@@ -90,7 +101,8 @@
 - trigger: btlistunstyled
   description: Bootstrap unstyled list
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <ul class="list-unstyled">
           <li>${1}</li>
@@ -99,7 +111,8 @@
 - trigger: btlistinline
   description: Bootstrap inline (horizontal) list
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <ul class="list-inline">
           <li>${1}</li>
@@ -108,7 +121,8 @@
 - trigger: btlistdescription
   description: Bootstrap description list
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <dl>
           <dt>${1:listitem}</dt>
@@ -118,28 +132,32 @@
 - trigger: btshow
   description: Bootstrap show block
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <div class="show">${1}</div>
 
 - trigger: bthide
   description: Bootstrap hide block
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <div class="hide">${1}</div>
         
 - trigger: bthideprint
   description: Bootstrap hide block for printing
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <div class="hidden-print">${1}</div>
         
 - trigger: btaddress
   description: Bootstrap address
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <div id="hcard-${1:vcardName}" class="vcard">
             <img src="${2:img.jpg}" alt="${3:fullName}" class="photo">
@@ -166,7 +184,8 @@
 - trigger: bttable
   description: Bootstrap table
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <div class="table-responsive">
           <table class="table table-hover table-condensed table-striped table-bordered">
@@ -198,7 +217,8 @@
 - trigger: btform
   description: Bootstrap form
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <form>
           <div class="form-group">
@@ -225,7 +245,8 @@
 - trigger: btforminline
   description: Bootstrap inline form
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <form class="form-inline">
           <div class="form-group">
@@ -259,7 +280,8 @@
 - trigger: btformhorizontal
   description: Bootstrap horizontal form
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <form class="form-horizontal">
           <div class="form-group">
@@ -293,7 +315,8 @@
 - trigger: btcheckbox
   description: Bootstrap checkbox (stacked)
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <div class="checkbox">
           <label>
@@ -311,7 +334,8 @@
 - trigger: btradio
   description: Bootstrap radio buttons (stacked)
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <div class="radio">
           <label>
@@ -335,7 +359,8 @@
 - trigger: btcheckboxinline
   description: Bootstrap checkbox (inline)
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <label class="checkbox-inline">
           <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
@@ -350,7 +375,8 @@
 - trigger: btradioinline
   description: Bootstrap radio buttons (inline)
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <label class="radio-inline">
           <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
@@ -365,7 +391,8 @@
 - trigger: btselect
   description: Bootstrap select
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <select ${1:multiple} class="form-control">
           <option>1</option>
@@ -378,7 +405,8 @@
 - trigger: btstatic
   description: Bootstrap static form control
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
           <div class="form-group">
             <label class="col-sm-2 control-label">Email</label>
@@ -391,7 +419,8 @@
 - trigger: btformgroup
   description: Bootstrap form group
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |          
         <div class="form-group has-success has-feedback">
           <label class="control-label" for="inputSuccess1">Input with success</label>
@@ -404,7 +433,8 @@
 - trigger: btinputgroup
   description: Bootstrap form group
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: | 
         <div class="form-group has-success has-feedback">
           <label class="control-label sr-only" for="inputGroupSuccess4">Input group with success</label>
@@ -419,84 +449,96 @@
 - trigger: btbutton
   description: Bootstrap button
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: | 
         <button type="button" class="btn btn-${1:default|primary|success|danger|info|warning|link} ${2:btn-lg|btn-sm|btn-xs}" ${3:disabled="disabled"}>${4:Button name}</button>
 
 - trigger: btbuttonblock
   description: Bootstrap block level button
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: | 
         <button type="button" class="btn btn-${1:default|primary|success|danger|info|warning|link} btn-lg btn-block">Primary</button>        
 
 - trigger: btimg
   description: Bootstrap responsive image
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <img src="${1:img/image.png}" class="img-responsive" alt="${2:Image alt text}">
         
 - trigger: btimgrounded
   description: Bootstrap responsive image
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <img src="${1:img/image.png}" class="img-rounded" alt="${2:Image alt text}">
         
 - trigger: btimgcircle
   description: Bootstrap responsive image
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <img src="${1:img/image.png}" class="img-circle" alt="${2:Image alt text}">
         
 - trigger: btimgthumbnail
   description: Bootstrap responsive image
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <img src="${1:img/image.png}" class="img-thumbnail" alt="${2:Image alt text}">
         
 - trigger: btclose
   description: Bootstrap close icon
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         
 - trigger: btpullleft
   description: Bootstrap pull left
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <div class="pull-left">${1}</div>
 
 - trigger: btpullright
   description: Bootstrap pull right
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <div class="pull-right">${1}</div>       
         
 - trigger: btcenterblock
   description: Bootstrap center block
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <div class="center-block">${1}</div>    
 
 - trigger: btclearfix
   description: Bootstrap clear fix
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <div class="clearfix">${1}</div>
         
 - trigger: btdropdown
   description: Bootstrap dropdown
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <div class="dropdown">
           <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
@@ -516,7 +558,8 @@
 - trigger: btdropup
   description: Bootstrap dropup
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <div class="dropup">
           <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -536,7 +579,8 @@
 - trigger: btbuttongroup
   description: Bootstrap button group
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <div class="${1:btn-group-vertical|btn-group} ${2:btn-group-justified}" role="group" aria-label="...">
           <button type="button" class="btn btn-default">Left</button>
@@ -547,7 +591,8 @@
 - trigger: btbuttontoolbar
   description: Bootstrap button toolbar
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"> 
             <div class="btn-group" role="group" aria-label="First group"> 
@@ -569,7 +614,8 @@
 - trigger: btbuttondropdown
   description: Bootstrap button dropdown
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <!-- Single button -->
         <div class="btn-group">
@@ -588,7 +634,8 @@
 - trigger: btbuttonsplit
   description: Bootstrap split button
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <!-- Split button -->
         <div class="btn-group ${1:dropup}">
@@ -609,7 +656,8 @@
 - trigger: btinputgroupaddon
   description: Bootstrap input group addon
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
        <div class="input-group">
           <span class="input-group-addon">$</span>
@@ -620,7 +668,8 @@
 - trigger: btinputgroupbutton
   description: Bootstrap input group button
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <div class="input-group">
           <input type="text" class="form-control" placeholder="Search for...">
@@ -632,7 +681,8 @@
 - trigger: bttabs
   description: Bootstrap tabs
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <div>
           <ul class="nav nav-tabs ${1:nav-justified}" role="tablist">
@@ -662,7 +712,8 @@
 - trigger: btpills
   description: Bootstrap pills
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <ul class="nav nav-pills ${1:nav-justified} ${2:nav-stacked}">
           <li role="presentation" class="active"><a href="#">Home</a></li>
@@ -683,7 +734,8 @@
 - trigger: btnav
   description: Bootstrap nav
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <nav class="navbar ${1:navbar-default|navbar-inverse}">
           <div class="container-fluid">
@@ -743,7 +795,8 @@
 - trigger: btbreadcrumbs
   description: Bootstrap breadcrumbs
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <ol class="breadcrumb">
           <li><a href="#">Home</a></li>
@@ -754,7 +807,8 @@
 - trigger: btpagination
   description: Bootstrap pagination
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <nav>
           <ul class="pagination">
@@ -779,7 +833,8 @@
 - trigger: btpager
   description: Bootstrap pager
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <nav>
           <ul class="pager">
@@ -791,21 +846,24 @@
 - trigger: btlabel
   description: Bootstrap label
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <span class="label label-success">Success</span>      
 
 - trigger: btbadge
   description: Bootstrap badge
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
     <span class="badge">42</span>      
 
 - trigger: btjumbotron
   description: Bootstrap jumbotron
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <div class="jumbotron">
           <h1>Hello, world!</h1>
@@ -816,7 +874,8 @@
 - trigger: btjumbotronfull
   description: Bootstrap full width jumbotron
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <div class="jumbotron">
             <div class="container">
@@ -829,7 +888,8 @@
 - trigger: btpageheader
   description: Bootstrap page header
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <div class="page-header">
           <h1>Example page header <small>Subtext for header</small></h1>
@@ -838,7 +898,8 @@
 - trigger: btthumbnail
   description: Bootstrap thumbnail
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <div class="row">
           <div class="col-sm-6 col-md-4">
@@ -856,14 +917,16 @@
 - trigger: btalert
   description: Bootstrap alert
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <div class="alert alert-warning" role="alert">...</div>
         
 - trigger: btalertdismissable
   description: Bootstrap dismissable alert
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <div class="alert alert-warning alert-dismissible" role="alert">
           <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -873,7 +936,8 @@
 - trigger: btprogressbar
   description: Bootstrap progress bar
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <div class="progress">
           <div class="progress-bar  progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 60%;">
@@ -884,7 +948,8 @@
 - trigger: btmedia
   description: Bootstrap media object
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <${1:div|li} class="media">
           <div class="media-left ${2:media-middle|media-top|media-bottom}">
@@ -901,7 +966,8 @@
 - trigger: btmedialist
   description: Bootstrap media list
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <ul class="media-list">
           <li class="media">
@@ -920,7 +986,8 @@
 - trigger: btlistgroup
   description: Bootstrap list group
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <ul class="list-group">
           <li class="list-group-item"><span class="badge">14</span> Cras justo odio</li>
@@ -933,7 +1000,8 @@
 - trigger: btlistgrouplinked
   description: Bootstrap linked list group
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <div class="list-group">
           <a href="#" class="list-group-item active">
@@ -949,7 +1017,8 @@
 - trigger: btlistgroupbutton
   description: Bootstrap button list group
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <div class="list-group">
           <button type="button" class="list-group-item">Cras justo odio</button>
@@ -963,7 +1032,8 @@
 - trigger: btlistgroupbutton
   description: Bootstrap button list group
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <div class="panel ${1:panel-default|panel-info}">
           <div class="panel-heading">
@@ -978,7 +1048,8 @@
 - trigger: btembed
   description: Bootstrap responsive embed
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <div class="embed-responsive embed-responsive-${1:16by9|4by3}">
           <iframe class="embed-responsive-item" src="..."></iframe>
@@ -987,14 +1058,16 @@
 - trigger: btwell
   description: Bootstrap well
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |        
         <div class="well">...</div>
 
 - trigger: btmodal
   description: Bootstrap modal
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <!-- Button trigger modal -->
         <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
@@ -1023,13 +1096,15 @@
 - trigger: bttooltip
   description: Bootstrap tooltip
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         data-toggle="tooltip" data-placement="${1:left|top|right|bottom}" title="Tooltip on ${1}"
 
 - trigger: btpopover
   description: Bootstrap popover
   scope: html
-  mTime: 1453322000074
+  tag: Bootstrap
+  tagHide: true
   text: |
         <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" data-placement="left" data-trigger="focus" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>        
